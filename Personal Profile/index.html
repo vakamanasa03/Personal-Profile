@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="Home">
+        <h1 class="Name">VAKA MANASA</h1>
+        <nav class="Navbar">
+            <ul class="Nav-Link">
+                <a href="#Home">HOME</a>
+                <a href="#About-Me">ABOUT ME</a>
+                <a href="#Hobbies">HOBBIES</a>
+                <a href="#Contact">CONTACT</a>
+            </ul>
+        </nav>
+    </header>
+    <section class="Home">
+        <h1 class="Home-Heading">HI THERE <span class="Color-Text">!! </span></h1>
+        <p class="Home-Text">A PROFESSIONAL <span class="Color-Text">WEB DESIGNER</span></p>
+    </section>
+    <section id="About-Me">
+        <h1 class="About-Me-Heading">ABOUT ME</h1>
+        <img src="pic.jpg" alt="MANASA" class="About-Me-Pic">
+        <h3 class="About-Me-Name">VAKA MANASA</h3>
+        <p class="About-Me-Content">I am a passionate web developer with experience in HTML, CSS, and JavaScript. I am always looking for new challenges and opportunities to learn and grow. In my free time, I enjoy playing basketball and learning new languages.</p>
+        <ul class="Education">
+            <h4 class="Education-Heading">EDUCATION </h4><br>
+            <li><span class="bold"> Bachelor of Technology (B.TECH)</span> <br>-S.R.Gudlavalleru Engineering College , Gudlavalleru</li><br>
+            <li><span class="bold"> Intermediate (MPC)</span> <br>-Narayana Junior College , Ongole</li><br>
+            <li><span class="bold"> Board of Secondary Education , A.P (SSC)</span> <br>-Narayana Public School , Ongole </li>
+        </ul>
+        <ul class="Projects">
+            <h4 class="Projects-Heading">PROJECTS </h4><br>
+            <li><span class="bold">PARENT PORTAL CONNECT</span><br>-Languages used&rarr;HTML , CSS , MySql</li><br>
+            <li><span class="bold">MUSIC RECOMMENDER SYSTEM</span><br>-Languages used&rarr;HTML , CSS , MECHINE LEARNING ALGORITHMS</li>
+        </ul>
+    </section>
+    <section id="Hobbies">
+        <h1 class="Hobbies-Heading">HOBBIES</h1>
+        <ul class="Habbits">
+            <li><span class="bold">READING BOOKS</span><br>-Reading books is a treasured hobby that brings me joy, comfort, and a sense of growth. It's a way to escape into different worlds, learn new things, and reflect on my own thoughts and feelings. Through reading, I can relax, recharge, and rediscover myself, one page at a time.</li><br>
+            <li><span class="bold">LEARNING NEW SKILLS</span><br>-Learning new skills is a empowering hobby that fosters personal and professional growth, building confidence and unlocking potential. Through dedicated learning, I can expand my knowledge, cultivate creativity, and pursue my passions with purpose.</li><br>
+            <li><span class="bold">LISTENING TO PODCASTS</span><br>-For me, listening to podcasts is a treasured hobby that sparks curiosity, inspiration, and connection. As I tune in, I'm able to escape into new ideas, explore fresh perspectives, and feel a sense of community with like-minded individuals, making me feel more informed, empathetic, and engaged with the world around me.</li><br>
+            <li><span class="bold">LISTENING TO MUSIC</span><br>-Through the hobby of listening to music, I gain a profound understanding of myself and the world around me. The lyrics and melodies offer a unique lens through which I can process emotions, reflect on experiences, and cultivate empathy. Music provides a universal language that resonates with my soul, fostering a deeper comprehension of the human experience and my place within it.</li><br>
+            <li><span class="bold">NATURE WALKING</span><br>-Through the hobby of listening to music, I gain a profound understanding of myself and the world around me. The lyrics and melodies offer a unique lens through which I can process emotions, reflect on experiences, and cultivate empathy. Music provides a universal language that resonates with my soul, fostering a deeper comprehension of the human experience and my place within it.</li>
+        </ul>
+    </section>
+    <section id="Contact">
+        <h1 class="Contact-Heading">Contact Me</h1>
+        <form onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61512.74489759578!2d79.99042402665091!3d15.508803933453096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b011c10366c03%3A0x6ee40296fd2dbcc5!2sOngole%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1717237044895!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="Map"></iframe>
+    </section>
+    <script  src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0%;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    background: transparent;
+    width: 100vw;
+    align-items: center;
+    border-bottom: 1px dashed black ;
+}
+.Name{
+    color: black;
+    font-size: 63px;
+    padding: 30px;
+}
+.Navbar a{
+    color: black;
+    padding: 30px;
+    font-size: 33px;
+    text-decoration:none;
+}
+.Navbar a:hover {
+    text-decoration: overline dotted;
+}
+.Home{
+    background: white;
+    width: 100vw;
+    height: 83.3vh;
+}
+.Home-Heading{
+    color: black;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 60px;
+
+}
+.Home-Text{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
+}
+.Color-Text{
+    color:red;
+   /* text-decoration: overline;*/
+}
+#About-Me{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    padding-top: 1%;
+}
+.About-Me-Heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+.About-Me-Pic{
+    width: 360px;
+    border-radius:15px;
+    margin-left: 11%;
+    margin-top: 7%;
+    border:3px solid black ;
+    transition: 3s;
+}
+
+.About-Me-Name{
+    float: right;
+    margin-right: 46%;
+    margin-top: 7%;
+    font-size: 33px;
+    color: teal;
+}
+.About-Me-Content{
+    width: 570px;
+    float: right;
+    margin-top: -23%;
+    margin-right:23% ;
+}
+.Education{
+    margin-left: 40%;
+    margin-top: -16%;
+}
+.Education-Heading{
+    font-weight: bolder;
+    font-size: 23px;
+
+}
+.Projects{
+    margin-left: 70%;
+    margin-top: -12.9%;
+}
+.Projects-Heading{
+    font-weight: bolder;
+    font-size: 23px;
+
+}
+.bold{
+    font-weight:bold;
+}
+#Hobbies{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    padding-top: 1%;
+}
+.Hobbies-Heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+.Habbits{
+    width: 770px;
+    margin-left: 27%;
+    margin-top: 6%;
+    list-style:square ;
+}
+#Contact{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    padding-top: 1%;
+}
+.Contact-Heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#Contact label {
+    margin-bottom: 5px;
+}
+
+#Contact input,
+#Contact textarea {
+    padding: 19px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-weight: bolder;
+    width: 90vw;
+    margin-left: 3%;
+
+}
+
+#Contact button {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    cursor:pointer;
+    width: 30vw;
+    margin-left: 35%;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.Map{ 
+    margin-left: 25%;
+    margin-top: 5%;
+}
+label{
+    font-weight: bolder;
+    margin-left: 5%;
+    font-size: 29px;
+    margin-top: 5%;
+}
